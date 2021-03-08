@@ -1,8 +1,10 @@
 import { createStore, applyMiddleware, combineReducers } from 'redux';
-
 import thunk from 'redux-thunk';
+import { diceRollReducer } from './reducer/DiceReducer';
 
-const reducer = combineReducers({});
+const reducer = combineReducers({
+  diceRoll: diceRollReducer,
+});
 
 const initialState = {};
 

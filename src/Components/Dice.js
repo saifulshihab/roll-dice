@@ -1,30 +1,22 @@
 import React from 'react';
 
-const Dice = ({ one, two, three, four, five, six }) => {
+const Dice = ({ diceNumber }) => {
   return (
-    <div
-      style={{
-        width: 100,
-        height: 100,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-      }}
-    >
+    <div className='dice'>
       <i
         style={{ fontSize: '6rem' }}
         className={`fas fa-dice-${
-          one
+          diceNumber === 'one'
             ? 'one'
-            : two
+            : diceNumber === 'two'
             ? 'two'
-            : three
+            : diceNumber === 'three'
             ? 'three'
-            : four
+            : diceNumber === 'four'
             ? 'four'
-            : five
+            : diceNumber === 'five'
             ? 'five'
-            : six && 'six'
+            : diceNumber === 'six' && 'six'
         }`}
       ></i>
     </div>

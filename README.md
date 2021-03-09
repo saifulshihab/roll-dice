@@ -1,4 +1,4 @@
-# Roll the Dice
-Live: https://6046f03facdaac3b0627eb8d--dazzling-albattani-b9e0e3.netlify.app/ 
+# Roll Dice
+Live: https://6046f32775ef1f3edb64856f--dazzling-albattani-b9e0e3.netlify.app/
 
-&copy; Copyright 2021. All Rights Reserved.
+Copyright &copy; 2021. All Rights Reserved.

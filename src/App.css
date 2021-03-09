@@ -68,3 +68,18 @@ body {
     transform: rotate(360deg);
   }
 }
+.header {
+  text-align: center;
+}
+.header h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.dice_wrapper {
+  display: flex;
+  margin: 20px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}

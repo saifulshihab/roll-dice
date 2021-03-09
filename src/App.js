@@ -27,14 +27,7 @@ function App() {
         </div>
       </div>{' '}
       <Button />
-      <div
-        style={{
-          display: 'flex',
-          margin: '20px 0',
-          justifyContent: 'center',
-          flexWrap: 'wrap',
-        }}
-      >
+      <div className='dice_wrapper'>
         {dices &&
           dices.map((data, idx) => {
             let diceNumber =
